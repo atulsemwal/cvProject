@@ -1,0 +1,57 @@
+.project-modal-bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.project-modal-content{
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.closeTwo{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    float: right;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 15px;
+    opacity: 0.5;
+}
+
+.closeTwo:hover{
+     opacity: 1;
+    color: black;
+}
+
+.project-heading{
+    padding: 8px 0 0 12px;
+}
+
+
+@media (max-width: 550px){
+    .project-modal-content {
+        width: 70%;
+        height: 60%;
+        background-color: white;
+        border-radius: 10px;
+        position: relative;
+        overflow-y: scroll;
+    }
+    .project-heading{
+        font-size: 2rem;
+    }
+
+}
+

@@ -1,0 +1,122 @@
+.about-modal-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.about-modal-content {
+    width: 55%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    overflow-y: scroll;
+}
+
+
+.about-heading{
+   padding-left: 12px;
+}
+
+.close {
+    
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+#code {
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 9px;
+}
+
+pre {
+    color: white;
+}
+
+.skill {
+    text-align: center;
+}
+
+/* Skill Container */
+
+
+.skill-heading{
+    font-size: 3rem;
+}
+.skill-row-text {
+    text-align: left;
+}
+
+.computer-img {
+    width: 25%;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+.fronted-img {
+    width: 76%;
+}
+
+.backend-img {
+    width: 22%;
+    padding-right: 5%;
+}
+
+/* info */
+
+.info {
+    text-align: center;
+}
+
+.linkedin-img {
+    display: block;
+    width: 30px;
+    margin: 0.7rem auto 0 auto;
+}
+
+
+@media (max-width: 550px){
+    .about-modal-content {
+        width: 70%;
+        height: 60%;
+        background-color: white;
+        border-radius: 10px;
+        position: relative;
+        overflow-y: scroll;
+    }
+    .about-heading{
+        font-size: 2rem;
+    }
+
+    #code{
+        font-size: 0.8rem;
+    }
+    .skill-heading{
+        font-size: 2rem;
+    }
+    .skill-row-text{
+        font-size: 1.5rem;
+    }
+    .fronted-img{
+        margin-bottom: 1.6rem;
+        width: 90%;
+    }
+    .backend-img{
+        width: 30%;
+    }
+    .linkedin-img {
+        display: block;
+        width: 30px;
+        margin: 0.7rem auto 0 auto;
+    }
+}
