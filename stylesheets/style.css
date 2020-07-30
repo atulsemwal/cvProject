@@ -53,3 +53,9 @@ body{
     font-size: 1.2em;
     outline: none;
 }
+
+/* //ontainer info */
+
+.download{
+    display: inline;
+}

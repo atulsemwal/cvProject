@@ -24,10 +24,14 @@ document.querySelector(".project-modal-btn").addEventListener("click",
 document.querySelector(".closeTwo").addEventListener("click", function () {
      document.querySelector(".project-modal-bg").style.display= "none";
 })
-// document.querySelector(".product-modal-btn").addEventListener("click",
-//     function () {
-//         document.querySelector(".about-modal-bg").style.display = 'flex';
-//     })
+
+var ell =document.querySelector(".project-modal-bg");
+ell.addEventListener("click", function(event){
+    if(ell != event.target){
+      return  
+    }
+    document.querySelector(".project-modal-bg").style.display = "none";
+})
 
 //Gloab
 VANTA.GLOBE({
