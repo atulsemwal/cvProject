@@ -35,6 +35,10 @@
     color: black;
 }
 
+.product-card{
+    margin-bottom: 10px;
+}
+
 .project-heading{
     padding: 8px 0 0 12px;
 }
