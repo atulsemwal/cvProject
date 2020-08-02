@@ -78,10 +78,13 @@ pre {
     text-align: center;
 }
 
-.linkedin-img {
-    display: block;
-    width: 30px;
-    margin: 0.7rem auto 0 auto;
+.contact-img{
+    text-align: center;
+    margin: 0.7rem  auto;
+}
+
+.contact-img img {
+  width: 30px;
 }
 
 
